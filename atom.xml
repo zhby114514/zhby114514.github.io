@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhby114514.github.io</id>
+    <title>一位初一极客的博客</title>
+    <updated>2023-06-06T18:16:32.139Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhby114514.github.io"/>
+    <link rel="self" href="https://zhby114514.github.io/atom.xml"/>
+    <logo>https://zhby114514.github.io/images/avatar.png</logo>
+    <icon>https://zhby114514.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 一位初一极客的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Magisk安装方法]]></title>
+        <id>https://zhby114514.github.io/post/Magisk-tutorial/</id>
+        <link href="https://zhby114514.github.io/post/Magisk-tutorial/">
+        </link>
+        <updated>2023-06-06T17:49:18.000Z</updated>
+        <content type="html"><![CDATA[<p>1.确保手机解了BL锁<br>
+2.在GitHub上安装magisk<br>
+GitHub：https://github.com/topjohnwu/Magisk<br>
+点击Downloads<br>
+<img src="https://zhby114514.github.io/post-images/1686075214316.jpg" alt="" loading="lazy"><br>
+3.下载完成后，手机桌面上会出现这样一个软件<br>
+<img src="https://zhby114514.github.io/post-images/1686073994148.jpg" alt="" loading="lazy"><br>
+但是点开后会发现：并没有root<br>
+<img src="https://zhby114514.github.io/post-images/1686074574493.jpg" alt="" loading="lazy"><br>
+所以这时进行下一步<br>
+4.改后缀：将.apk改为.zip<br>
+5.进入twrp安装<br>
+<img src="https://zhby114514.github.io/post-images/1686074527523.jpg" alt="" loading="lazy"><br>
+6.重启手机后，root成功<br>
+（若弹出需修复，点击修复---直接安装---重启---OK）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KernelSU安装方法]]></title>
+        <id>https://zhby114514.github.io/post/KSU-tutorial/</id>
+        <link href="https://zhby114514.github.io/post/KSU-tutorial/">
+        </link>
+        <updated>2023-06-06T17:12:38.000Z</updated>
+        <content type="html"><![CDATA[<p>1.确保手机解了BootLoader锁（不然无法进行第二步）<br>
+2.去KSU的GitHub<br>
+https://github.com/tiann/KernelSU<br>
+3.查看自己手机的内核<br>
+<img src="https://zhby114514.github.io/post-images/1686072512594.jpg" alt="" loading="lazy"><br>
+内核通常为：5.xx.xxx-android1x-x<br>
+4.下载相对应的内核（内核要一致）。zip是内核，release.apk是管理器<br>
+<img src="https://zhby114514.github.io/post-images/1686072891614.png" alt="" loading="lazy"><br>
+我的内核是5.10.101.A12-9的<br>
+所以应下载相应内核AnyKernel3-android12-5.10.101_2022-05.zip<br>
+相应内核下载为：AK3-A1X-5.XX.XXX_YYYY-MM.zip<br>
+5.下载完成后，进入twrp安装<br>
+<img src="https://zhby114514.github.io/post-images/1686072828715.jpg" alt="" loading="lazy"><br>
+6.开机后下载管理器（末尾的release.apk）<br>
+7.欢迎来到KernelSU<br>
+<img src="https://zhby114514.github.io/post-images/1686074227065.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何搭建一个像我这样的个人博客]]></title>
+        <id>https://zhby114514.github.io/post/hasb/</id>
+        <link href="https://zhby114514.github.io/post/hasb/">
+        </link>
+        <updated>2023-04-19T04:34:47.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>下载Girdea（链接：https://github.com/getgridea/gridea）</li>
+<li>登录/注册你的Github账号<br>
+<img src="https://zhby114514.github.io/post-images/1681879089977.png" alt="" loading="lazy"></li>
+<li>选择左上角Top Repositories右边的新建<br>
+<img src="https://zhby114514.github.io/post-images/1681879237652.png" alt="" loading="lazy"></li>
+<li>拥有者是你自己的账号，仓库名字是你的名字。<br>
+如：xxxxxxx.github.io<br>
+<img src="https://zhby114514.github.io/post-images/1681879405407.png" alt="" loading="lazy"></li>
+<li>完成后选择创建</li>
+<li>打开项目，选择设置，pages，GitHub Pages。点开Your site is live at https://xxxxx.github.io/（可能会有些慢）<br>
+<img src="https://zhby114514.github.io/post-images/1681879721986.png" alt="" loading="lazy"></li>
+<li>创建Token。点击头像，Developer settings，Personal access tokens，tokens (classic)<br>
+<img src="https://zhby114514.github.io/post-images/1681879929022.png" alt="" loading="lazy"></li>
+<li>点击Genarate new token，选第二个，Note随便填，把下面的全部勾上<br>
+<img src="https://zhby114514.github.io/post-images/1681880081773.png" alt="" loading="lazy"><br>
+<img src="https://zhby114514.github.io/post-images/1681880177138.png" alt="" loading="lazy"></li>
+<li>生成token（不要关该界面）</li>
+<li>打开Gridea</li>
+<li>点击远程</li>
+<li>配置Github Pages，域名就是（http://sxxxxxxx.github.io），分支master，仓库用户名就是你的名字，邮箱是注册Github的邮箱，令牌就是你刚才获得的Token，像这样<img src="https://zhby114514.github.io/post-images/1681896061311.png" alt="" loading="lazy"></li>
+<li>点击保存，检测远程连接，没问题后点击同步</li>
+<li>打开你的博客（如：你的用户名.github.io）</li>
+<li>恭喜你，完成搭建</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hello（点击即可查看）]]></title>
+        <id>https://zhby114514.github.io/post/hello/</id>
+        <link href="https://zhby114514.github.io/post/hello/">
+        </link>
+        <updated>2023-04-18T08:05:57.000Z</updated>
+        <content type="html"><![CDATA[<p>你好<br>
+如你所见，这是一个博客，花了我两个小时搭建的。<br>
+按理来说这里以后可能会分享有些东西<br>
+那就先这样吧<br>
+再见<br>
+<img src="https://zhby114514.github.io/post-images/1681805312698.jpg" alt="" loading="lazy"><br>
+o，对了<br>
+两张图片分别是“比那名居天子”（上）<br>
+“空崎阳奈”      （下）</p>
+]]></content>
+    </entry>
+</feed>
